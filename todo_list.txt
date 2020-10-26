@@ -1,0 +1,50 @@
+
+https://www.abeautifulsite.net/whipping-file-inputs-into-shape-with-bootstrap-3
+https://github.com/verot/class.upload.php/blob/master/README.md
+https://stackoverflow.com/a/29941749/3231250
+
+https://www.w3schools.com/tags/tag_progress.asp
+https://stackoverflow.com/questions/554273/changing-the-image-source-using-jquery
+https://stackoverflow.com/questions/5309926/how-to-get-the-data-id-attribute
+https://stackoverflow.com/questions/26327965/how-to-set-eloquent-relationship-belongsto-through-another-model-in-laravel
+https://stackoverflow.com/questions/49274220/laravel-5-database-relationship-get-data-on-another-table/49274313#49274313
+php artisan make:seeder UsersTableSeeder
+https://stackoverflow.com/questions/36954382/laravel-how-get-array-and-not-object-of-querybuilder-select-statement
+https://stackoverflow.com/questions/20017409/how-to-solve-php-error-notice-array-to-string-conversion-in
+https://laravel.com/docs/master/collections#method-unique
+https://stackoverflow.com/questions/1145208/how-to-add-li-in-an-existing-ul
+api.jquery.com/jquery.each/
+https://stackoverflow.com/questions/3790202/css-list-inline-is-not-listing-items-horizontally
+https://getbootstrap.com/docs/4.0/content/images/
+https://stackoverflow.com/questions/1164132/how-to-reenable-event-preventdefault
+https://stackoverflow.com/questions/13442351/display-mysql-results-by-date
+https://stackoverflow.com/questions/29753027/querying-data-and-grouping-by-day-with-laravel
+
+->groupBy(function($date) {return Carbon::parse($date->movie_time)->format('m-d-Y');})
+
+' +v[k].movie_time.substring(11, 16)+ '
+
+secilen koltuklari 2 defa kayit ediyor?
+
+     $('#seat-map').seatCharts().get([
+            @php
+                $e = explode(',',$showtime->booking);
+                foreach ($e as $val){
+                    echo  (end($e) != $val) ? "'".$val."'," : "'".$val."'";
+                }
+            @endphp
+        ]).status('unavailable');
+
+
+
+            @foreach($priceDetail as $pd)
+                                                <div class=" form-group" id="price-item-{{$pd->seatId}}">
+                                                    <label> {{$pd->seatId}} </label>
+                                                    <select class="sel form-control" data-seatid="{{$pd->seatId}}">
+                                                        @foreach($priceList as $k =>$v )
+                                                            <option value="{{$k}}"
+                                                                    @if ($k == $pd->priceValue)  selected="selected" @endif>{{$v}}</option>
+                                                        @endforeach
+                                                    </select>
+                                                </div>
+                                            @endforeach

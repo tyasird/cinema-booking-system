@@ -1,0 +1,221 @@
+@media screen and (max-width: 1366px) {
+    h3.head {
+        margin-left: 0.5em;
+    }
+}
+
+.fa-star.checked{
+    color:orange;
+}
+
+p.ratingview {
+    color: #000;
+    font-size: 1em;
+    font-weight: 600;
+    float: left;
+    margin:10px 0px;
+}
+.rating {
+    direction: rtl;
+    text-align: center;
+    float: left;
+    margin:10px 10px;
+}
+.rating > span {
+    display: inline-block;
+    position: relative;
+    width: 1.1em;
+}
+.rating > span:hover,
+.rating > span:hover ~ span {
+}
+.rating > span:hover:before,
+.rating > span:hover ~ span:before {
+
+}
+
+
+
+
+.main-contact form input[type="tel"], .main-contact form input[type="email"], .main-contact form input[type="number"] {
+    width: 100%;
+    padding: 10px 14px;
+    border: 3px solid #000;
+    font-size: 1.2em;
+    margin-bottom:1.5em;
+    color: #000;
+    outline: none;
+    font-weight:400;
+}
+
+
+.main-contact h4{
+    margin-left: 15px;
+}
+
+.result-reservation .post-content {
+    opacity: 1;
+    top:140px;
+    left:350px;
+    position: absolute;
+}
+
+.result-reservation .thumbnail{
+    position:relative;
+
+}
+.result-reservation .thumbnail img{
+    width: 800px;
+
+}
+
+
+.result-reservation {
+    padding: 4em 5em;
+    border-top: 1px solid #000;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.col-100vh {
+    height:100vh;
+}
+
+.info-text {
+    color: #26B6D9;
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/*seans secimi*/
+.listShowtimes{
+    display: none;
+}
+
+
+.listShowtimes ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.listShowtimes ul li a
+{
+
+    background-color: #ffd564;
+    color: #000;
+    margin-right: 5px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    display: inline;
+    list-style-type: none;
+    float: left;
+}
+
+.listShowtimes ul li a:hover
+{
+    text-decoration: none;
+
+    background-color: #df140e;
+    color:white;
+}
+
+
+
+
+/*koltuk secimi*/
+.front-indicator {
+    width: 585px;
+    margin: 5px 32px 15px 32px;
+    background-color: #e65f5f;
+    color: #fff;
+    text-align: center;
+    padding: 3px;
+    border-radius: 5px;
+}
+.wrapper {
+    width: 100%;
+    text-align: center;
+    margin-top:150px;
+}
+
+.booking-details {
+    float: left;
+    text-align: left;
+    margin-left: 35px;
+    font-size: 12px;
+    position: relative;
+    height: 401px;
+}
+.booking-details h2 {
+    margin: 25px 0 20px 0;
+    font-size: 17px;
+}
+.booking-details h3 {
+    margin: 5px 5px 0 0;
+    font-size: 14px;
+}
+div.seatCharts-cell {
+    color: #182C4E;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+
+}
+div.seatCharts-seat {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+div.seatCharts-row {
+    height: 35px;
+}
+div.seatCharts-seat.available {
+    background-color: #B9DEA0;
+
+}
+div.seatCharts-seat.available.first-class {
+    background-color: #3a78c3;
+}
+div.seatCharts-seat.focused {
+    background-color: #76B474;
+}
+div.seatCharts-seat.selected {
+    background-color: #81d217;
+}
+div.seatCharts-seat.unavailable {
+    background-color: #472B34;
+}
+div.seatCharts-container {
+    width: 800px;
+    padding: 20px;
+    float: left;
+}
+div.seatCharts-legend {
+    padding-left: 0px;
+    bottom: 16px;
+}
+ul.seatCharts-legendList {
+    padding-left: 0px;
+}
+span.seatCharts-legendDescription {
+    margin-left: 5px;
+    line-height: 30px;
+}
+.checkout-button {
+    display: block;
+    margin: 20px 0;
+    font-size: 14px;
+}
+#selected-seats {
+    max-height: 90px;
+    overflow-y: scroll;
+    overflow-x: none;
+    width: 300px;
+}
