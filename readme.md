@@ -1,7 +1,7 @@
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-<p>An application for booking tickets at the cinema. Integrated with the powerful administrator panel.
+<p align="center">An application for booking tickets at the cinema. Integrated with the powerful administrator panel.
 
 made in 2018
 </p>
